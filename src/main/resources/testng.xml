@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="3"  parallel="tests">
+    <test name="test-suite">
+          <classes>
+              <class name="api.CreatePlayerTests" />
+              <class name="api.DeletePlayerTests" />
+              <class name="api.GetAllPlayersTests" />
+              <class name="api.GetPlayerByIdTests" />
+              <class name="api.UpdatePlayerTests" />
+          </classes>
+    </test>
+
+</suite>
